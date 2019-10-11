@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @model Lesson3App.Model.Personel
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@ViewData["SayfaIsmi"]</title>
+</head>
+<body>
+    @{var personel = ViewData["Personel"] as Lesson3App.Model.Personel;
+    }
+    <div>Data From View Data:@personel.FirstName</div>
+
+    <div>Data From View Bag:@ViewBag.Personel.FirstName  @ViewBag.Personel.LastName</div>
+
+    <div>Id: @Model.PersonelId</div>
+    <div>First Name: @Model.FirstName</div>
+    <div>Last Name: @Model.LastName</div>
+</body>
+</html>

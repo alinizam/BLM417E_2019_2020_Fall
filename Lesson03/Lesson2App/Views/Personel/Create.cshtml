@@ -1,0 +1,41 @@
+﻿@using Lesson3App
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers 
+
+@{
+    @model Lesson3App.Model.Personel
+}
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+</head>
+<body>
+    <h2>Create Employee</h2>
+    <h2>@ViewData["SayfaIsmi"]</h2>
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label asp-for="PersonelId"></label>
+            <input asp-for="PersonelId" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="FirstName"></label>
+            <input asp-for="FirstName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+</form>
+
+</body>
+</html>
+
+
+
+
+
+

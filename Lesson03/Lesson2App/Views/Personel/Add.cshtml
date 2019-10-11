@@ -1,0 +1,42 @@
+﻿@using Lesson3App
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    @model Lesson3App.Model.Personel;
+}
+<form asp-action="Add" method="post">
+    <div>
+        <label> Personel Id </label>
+        <input asp-for="PersonelId" class="form-control" />
+    </div>
+    <div>
+        <label> First Name</label>
+        <input asp-for="FirstName" type="text" class="form-control" />
+    </div>
+    <div>
+        <label> Last Name</label>
+        <input asp-for="LastName" type="text" class="form-control" />
+    </div>
+
+    <div>
+        <input type="submit" value="Add" />
+    </div>
+</form>
+
+
+<div>
+    <table>
+        <tr> <th>Id</th><th>Name</th><th>Surname</th></tr>
+        @foreach (var person in ViewBag.PersonelList)
+        {
+            <tr>
+                <td>@person.PersonelId</td>
+                <td>@person.FirstName</td>
+                <td>@person.LastName</td>
+            </tr>
+        }
+    </table>
+
+</div>
+
+
