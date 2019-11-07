@@ -1,0 +1,14 @@
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\bin\Debug\netcoreapp2.1\Lesson7App1.deps.json
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\bin\Debug\netcoreapp2.1\Lesson7App1.runtimeconfig.json
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\bin\Debug\netcoreapp2.1\Lesson7App1.runtimeconfig.dev.json
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\bin\Debug\netcoreapp2.1\Lesson7App1.dll
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\bin\Debug\netcoreapp2.1\Lesson7App1.pdb
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\obj\Debug\netcoreapp2.1\Lesson7App1.csprojAssemblyReference.cache
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\obj\Debug\netcoreapp2.1\Lesson7App1.csproj.CoreCompileInputs.cache
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\obj\Debug\netcoreapp2.1\Lesson7App1.RazorAssemblyInfo.cache
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\obj\Debug\netcoreapp2.1\Lesson7App1.RazorAssemblyInfo.cs
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\obj\Debug\netcoreapp2.1\Lesson7App1.AssemblyInfoInputs.cache
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\obj\Debug\netcoreapp2.1\Lesson7App1.AssemblyInfo.cs
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\obj\Debug\netcoreapp2.1\Lesson7App1.RazorTargetAssemblyInfo.cache
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\obj\Debug\netcoreapp2.1\Lesson7App1.dll
+C:\Users\alinizam\source\repos\Lesson7App1\Lesson7App1\obj\Debug\netcoreapp2.1\Lesson7App1.pdb
