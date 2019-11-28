@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+ 
+    
+
+<body>
+            <p>The <img src="img/cat.jpeg" alt="Cat"> in the
+            <img src="img/cat1.jpeg" alt="Hat">.</p>
+          
+          <p><button onclick="replaceImages()">Replace</button></p>
+          
+          <script>
+            function replaceImages() {
+              let images = document.body.getElementsByTagName("img");
+              for (let i = images.length - 1; i >= 0; i--) {
+                let image = images[i];
+                if (image.alt) {
+                  let text = document.createTextNode(image.alt);
+                  image.parentNode.replaceChild(text, image);
+                }
+              }
+            }
+          </script>
+          
+</body>
+</html>
