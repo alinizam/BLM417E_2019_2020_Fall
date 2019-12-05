@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+</head>
+
+<body>
+    <form>
+        Patient Id: <input id='patientId' type="text" name="fname"><br>
+        Name: <input id='name' type="text" name="lname"><br>
+    </form>
+    <button onclick="add()">Add</button>
+    <button onclick="show()">Show</button>
+    <br>
+    <table id='table' >
+        <tr>
+            <th>Patient Id</th>
+            <th>Name</th>
+        </tr>
+    </table>
+</body>
+<script>
+    class Patient {
+        constructor(patientId, name) {
+            this.patientId = patientId;
+            this.name = name;
+        }
+    }
+    let patients = [];
+    function add() {
+        let patientValue = document.getElementById('patientId').value;
+        let name = document.getElementById('name').value;
+        let newPatient = new Patient(patientValue, name);
+        patients.push(newPatient);
+    }
+    function show() {
+        patients.forEach(element => {
+            var trElement = document.createElement('tr');
+            var tdElement = document.createElement('td');
+            var tdElement2 = document.createElement('td');
+            tdElement.innerHTML = element.patientId;
+            tdElement2.innerHTML = element.name;
+            trElement.appendChild(tdElement)
+            trElement.appendChild(tdElement2);
+            let table = document.getElementById('table');
+            table.appendChild(trElement);
+        });
+    }
+</script>
+
+</html>
